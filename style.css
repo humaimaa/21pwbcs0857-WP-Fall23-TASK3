@@ -1,0 +1,309 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #1a1a1d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* green wala */
+/* Header Section */
+header {
+    background-image: url('123-back.jpg'); /* Add a background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-color: rgb(28, 25, 25);
+    text-align: left;
+    color: #ffffff;
+    padding: 200px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: auto;
+    margin: 10px 0;
+    text-align:center;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+header h4 {
+    font-size: 1rem;
+    font-weight: auto;
+    margin: 10px 0;
+    text-align:center;
+}
+header p {
+    font-size: 1.2rem;
+    font-weight: auto;
+    margin-top: 20px;
+    text-align:center;
+}
+
+
+
+
+
+    
+
+
+
+/* About Section */
+#about {
+   
+    background-color:white;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+
+
+#about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: black;
+}
+
+#about pre {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: match-parent;
+   color:black;
+
+}
+/* Style for the contact information */
+.contact-label {
+    font-weight: bold;
+    color: rgb(15, 14, 14); /* You can choose your preferred color */
+}
+
+.contact-link {
+    color: rgb(21, 0, 255); /* You can choose your preferred link color */
+    text-decoration: none;
+    text-align: start;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    color: #0e0c0c;
+    text-align: start;
+}
+
+
+
+
+/* Background color */
+#skills {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Sub Navigation */
+.sub-navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sub-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sub-navigation li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.sub-navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sub-navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Skill Categories */
+.skill-category {
+    margin-top: 20px;
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.skill-category ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skill-category li {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+/* Education Section */
+#education {
+    background-image: url('about-background.jpg');
+    background-color: #151414;
+    padding: 30px 0;
+    text-align: left;
+    color: #f5f5f5;
+}
+
+#education h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f5f5f5;
+
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+    color:#f5f5f5;
+}
+
+#education ul li {
+    margin: 10px 0;
+
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+    color: black
+    padding: 50px 0;
+    text-align : center;
+}
+
+#contact .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact .input-field {
+    text-align: left;
+    margin: 20px 0;
+}
+
+#contact label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+}
+
+#contact textarea {
+    height: 150px;
+}
+
+#contact button {
+    background-color: #fff;
+    color: #111511;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#contact .social-icons {
+    margin-top: 30px;
+}
+
+#contact .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#contact .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #1a1a1d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
